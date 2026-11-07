@@ -1,0 +1,13 @@
+{
+  "validation_type": "automated_tests",
+  "generated_utc": "2026-11-06T08:30:25.054761+00:00",
+  "python_executable": "D:\\Anaconda\\envs\\spring_env\\python.exe",
+  "tests_run": 106,
+  "tests_passed": 106,
+  "all_passed": true,
+  "returncode": 0,
+  "failure_summary": null,
+  "real_full_data_rerun": false,
+  "test_log": "TEST_RESULTS_final.txt",
+  "test_source_hash_manifest": "TEST_SOURCE_SHA256_final.json"
+}
