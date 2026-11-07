@@ -1,0 +1,114 @@
+{
+  "stage": 5,
+  "status": "accepted_modelA_stage5",
+  "pipeline_model": "ModelA",
+  "scope": "full",
+  "started_utc": "2026-11-06T00:00:19.586698+00:00",
+  "code_sha256": "f492c5cca05d8b0d6188add91f7a7f25a24cf82fff294573b6c8f06ca78f8131",
+  "source_stage3_metadata_sha256": "ad0d99d0286a14ea1b4aaeb6fb706b6e8d2da96382836f69bd75ed51a6362d8e",
+  "source_stage4_metadata_sha256": "88ae9e9b014bf8ef2ef0c331d16d48a8014c044639eb1220612c94f20c005f91",
+  "figure_scope": "single-model manuscript narrative: substitution, shape response, allocation mechanism, and market performance",
+  "finished_utc": "2026-11-06T00:00:19.586698+00:00",
+  "outputs": [
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_paths.png",
+      "sha256": "243c927f3d4b5affbb2a1d56fa65fe76015ae6f3851f6ff145782a98c5d31917"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_paths.pdf",
+      "sha256": "e637c68b6b189d6232b850f3c0dd6d2a3907e568a3a2e7d4ce75410e3302c83d"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_replace.png",
+      "sha256": "9eae115f8a89dd458d66cbe067337260f15b1c454491c9b67ecf7c2079edd19c"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_replace.pdf",
+      "sha256": "918b98084b2b2ab4b7845bac2a3d7085a911f0a2f404ea8fcd4da71532198324"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_shape.png",
+      "sha256": "02880235a165531a686dc95cf4f485da8c19eecc276701c627c966760c3453d7"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_shape.pdf",
+      "sha256": "fa5d9ced6ec620eb14f0fbfc6604058025236f685226b5cef5b97d5209dfe32e"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_alloc.png",
+      "sha256": "96d7eb0cf71faccd52b7c0645bf31087b7c6115b06251f157cecfc5ba724ff38"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_alloc.pdf",
+      "sha256": "29e9112adaf0e653bc7888d73d7aabc6ee6178ef3fad0958721260d53d9d48cd"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_states.png",
+      "sha256": "2feecd69db0873dd2a2ac260dc303c6f94d2acc9e62eeb74a3a2ac5ba5cef1d0"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\fig_states.pdf",
+      "sha256": "2addb14910750fd1a89bd5ca034bdcadcdb0afd6be2be79ee256b138eb305a0e"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_neutral.png",
+      "sha256": "353c25491d03827c1609b04333b284a152ec4ea7551dbc5992315f080cddca06"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_neutral.pdf",
+      "sha256": "c245daffc3097af9c3a5b0115f7be3a4c839f54ecc92005e7bc342ebe524eeda"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_sensitivity.png",
+      "sha256": "0af800ad4a3a52e55f51a5bbaf15f93a11995f61417f43bfef6c7e76c882ce41"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_sensitivity.pdf",
+      "sha256": "2979e6614aaf4acebf711dadf38632a3e5be4e4502dc8d8e0504c884d3924b02"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_heterogeneity.png",
+      "sha256": "514d60deaa3670047332ec8d40f409de004bf56d3c160b002073b304e9dc5a0b"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_heterogeneity.pdf",
+      "sha256": "f22948eb516f8a96549224eadd3dc2160f00c4698cb3adce9ce3de087088a0ee"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_core.png",
+      "sha256": "e616f47623a1745492c38d36b5fabbe594bc00418388d106f56bc9ec37e5a809"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_core.pdf",
+      "sha256": "0af90fc00868c245466c1355b8cf8ec93aa118bcb8360644d142356152e45714"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_endpoint.png",
+      "sha256": "657cd76df14851177eaeea8b2db5c6177e74d2901bc560a4856cfbc789fff4be"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_endpoint.pdf",
+      "sha256": "d4a753ca27a0a268efa5f2882479dbd24fbe3dca7c455d48afcda47a4764ad7d"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_interval.png",
+      "sha256": "80911f9086d42b9a4b812c9cfbb000ca84cfb6004047dab252322ba21e927a04"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_interval.pdf",
+      "sha256": "10d84457f020e1c54a86cbc6afa7623af81d728619236e52ec8b0ec0ba7c8aae"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_heterogeneity.png",
+      "sha256": "bb2c01b42e84460732dd42662447306feb4a9c1012be1499ebf7526979cf3380"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\app_feasibility_heterogeneity.pdf",
+      "sha256": "766e9c07efd3525c6ff683ca228bc05329527e7fabcb1873c65a53a7dcc08be1"
+    },
+    {
+      "path": "D:\\latex\\IJFS\\results5_layout_trial\\figure_index.json",
+      "sha256": "70f1fa87906adf7e8c39ae79be51bda526d59f030b1643341c653d6cf7e503b1"
+    }
+  ]
+}
