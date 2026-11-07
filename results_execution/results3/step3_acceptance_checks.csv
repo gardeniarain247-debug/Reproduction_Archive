@@ -1,0 +1,7 @@
+﻿check,passed
+finite_full_calendar_returns,True
+one_row_per_strategy_date,True
+all_strategies_same_calendar,True
+accepted_constraints,True
+failed_windows_are_hold_actions,True
+cash_assets_fees_sum_one,True

@@ -1,0 +1,89 @@
+{
+  "stage": 4,
+  "status": "accepted_modelA_stage4",
+  "pipeline_model": "ModelA",
+  "pipeline_revision": "review_completion_v1",
+  "scope": "full",
+  "source_stage3_metadata_sha256": "ad0d99d0286a14ea1b4aaeb6fb706b6e8d2da96382836f69bd75ed51a6362d8e",
+  "statistics_code_sha256": "d2a3cbfd11e9601438d8f1143cb04f9d86621fe5c016f2a98f2821de880509f5",
+  "code_sha256": "546cdaf6ca29e97047dfea290e737909095b4f934ecc3d69633599be4b985a2d",
+  "started_utc": "2026-11-01T06:53:19.362155+00:00",
+  "inference": {
+    "replicates": 2000,
+    "block_length": 10,
+    "seed": 42,
+    "hac": "Bartlett Newey-West with automatic bandwidth; no cross-gap autocovariance",
+    "bootstrap": "paired moving blocks preserving segment lengths; short segments flagged, block never reduced",
+    "holm_family": "unique data fingerprints within purpose x scope x statistic",
+    "sharpe_p": "two-sided centered-error paired bootstrap with matching symmetric centered-error CI",
+    "minimum_sample": 10
+  },
+  "result_scope": "full-policy results include holds after infeasible optimization; direct-only results are selected-sample diagnostics",
+  "finished_utc": "2026-11-01T06:53:19.362155+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_performance.csv",
+      "sha256": "e18690500d0ec0edde55535233f63a3a4c58e85027c9094d8485ece541d54c1b"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_paired_comparisons.csv",
+      "sha256": "05a9081258a1f62c2f66ebc0eba18b26262cd0a9227ce7609ec101352cf19f0d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_pair_definitions.csv",
+      "sha256": "21c65752919fc776bae9cbd2bac63f438a3cd92698c223797ecaa29d3dea52bc"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_feasibility.csv",
+      "sha256": "63ac03ac0694110fdd428ae02bfd97bc2c1c15288106bf032d0910380e0d6c77"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_inference_sensitivity.csv",
+      "sha256": "d312db13300cb71ed68bc85aac8cdeddf6fd1f9619f5406b6f6f33db90b54560"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_difference_acf.csv",
+      "sha256": "9eb3b595b7e34c1fe49a22a88bcaaa6d36c8349874758182711c9b1a0c1efc50"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_substitution_common_samples.csv",
+      "sha256": "50d92adb668d387a3c12c1095fa549a435363976c6eb382b80c212c8b576400a"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_window_stability.csv",
+      "sha256": "8ed7c126754dd5f68deac9d63be89b213f53a3fa10974e02cd6d42c9de09da62"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_state_descriptive.csv",
+      "sha256": "b110f24985a4744aaafb652b736ec00bcf162be54d71c640f2ad960092d41bab"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_structure_by_window.csv",
+      "sha256": "f775dcb3c6f8345bc95ffaaa0aa63cfc5baac3a80db52e4d7584d3a3ce95e91b"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_structure_summary.csv",
+      "sha256": "59aef5a7ee9b1cd043c5018eb822cb25f8a8a7cdb703a2be342fe128433b65ac"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_state_performance.csv",
+      "sha256": "fd9287b819f8f86e50814beb6edca463539ed7da91c92d9cd5d8f7a31f89d14d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_state_contrasts.csv",
+      "sha256": "01c0dbd1efea4c1152fd183bc68cfa495d8ab458b1cc53eaf46c118e2e291492"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_market_labels.csv",
+      "sha256": "72adf78b133f6a778829148b4008434cf3a04d97545469530e834e93dd8f69cb"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_heterogeneity_mechanisms.csv",
+      "sha256": "9a2eef59f26c723d41053f2126258f0e6bec35995cc345192da86f45c7a32985"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results4\\step4_neutral_reference.csv",
+      "sha256": "1bbd57ebecb514f6344039f57558d962e7a60ca738cb90148995c17f839d5a68"
+    }
+  ]
+}

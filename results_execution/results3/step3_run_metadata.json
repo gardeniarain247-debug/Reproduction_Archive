@@ -1,0 +1,93 @@
+{
+  "stage": 3,
+  "pipeline_model": "ModelA",
+  "pipeline_revision": "review_completion_v1",
+  "status": "accepted_modelA_stage3",
+  "scope": "full",
+  "started_utc": "2026-11-01T01:14:22.404424+00:00",
+  "stage2_run_id": "step2_20261101T011403278353Z",
+  "source_stage2_metadata_sha256": "057c9e4fefcc29fc39b35809b3c5eb7792e8d3df62d1ed86375e8ca5b540b619",
+  "code_sha256": "54861ef555e6cf8c8ff0f4cff74f27b49ede82344a7f177124d2cf885440e359",
+  "step2_code_sha256": "1399f725556e924b744c5a42b168811cbda2473eff04a83b68f7d7dda7e0d622",
+  "policy": {
+    "objective": "pure_downside",
+    "cost_buy": 0.003,
+    "cost_sell": 0.003,
+    "weight_upper": 0.3,
+    "cash_lower": 0.0,
+    "trading_days": 252,
+    "revision_relaxation_scales": [
+      1.0,
+      0.95,
+      0.9,
+      0.85
+    ],
+    "solver_method": "highs",
+    "solver_options": {
+      "primal_feasibility_tolerance": 1e-07,
+      "dual_feasibility_tolerance": 1e-07,
+      "ipm_optimality_tolerance": 1e-08
+    },
+    "constraint_tolerance": 1e-07,
+    "baseline_weight_tolerance": 1e-06,
+    "initial_weight_rule": "cash_first_then_own_last_success_current_pool",
+    "exit_asset_cost": "include_forced_liquidations",
+    "degenerate_endpoint_policy": "preserve_algebraic_limit_and_flag",
+    "mv_reference_policy": "recompute_mv_as_separate_benchmark",
+    "heterogeneous_k0": 0.8,
+    "heterogeneous_deltas": [
+      0.1,
+      0.2
+    ],
+    "heterogeneous_partial_assets": 10,
+    "bootstrap_block_lengths": [
+      5,
+      10
+    ],
+    "bootstrap_replicates": 300,
+    "bootstrap_seed": 42,
+    "expected_windows": 40
+  },
+  "execution_rule": "trade at estimation-end close; buy-and-hold; cash pays realized daily rate",
+  "failure_rule": "infeasible: no trades, hold actual positions/cash; numerical/data error: abort",
+  "budget_rule": "asset amounts and fees relative to pretrade NAV; cash=1-sum(x)-fee",
+  "cost_return_rule": "original conservative net daily criterion: deduct entire rebalance fee, not fee/60",
+  "bootstrap_scope": "Stage2 conditional coefficient samples only; no independent sequential bootstrap strategy",
+  "failed_optimization_windows": 318,
+  "relaxed_windows": 27,
+  "strategies": 64,
+  "fallback_returns_included": true,
+  "index_benchmark_included": true,
+  "elapsed_seconds": 218.97881960000086,
+  "finished_utc": "2026-11-01T01:18:00.875157+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_daily_returns.parquet",
+      "sha256": "3c380bf5613a511e69338d95222e733e3d12008aab7cab270e9977189145c81a"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_window_backtests.csv",
+      "sha256": "780dcba1bfed37eb46f6c498e8023fdf5ad9c65134490c1473a62b22ab679cd8"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_assets.parquet",
+      "sha256": "d12c5686d4786bc1e080cdae9e2f057d9ccbbde00ed0218508c914d9b58673ce"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_weight_pairs.csv",
+      "sha256": "5a0f01605523c3869baa8ce96b62c41e04c4480f184ec061d1ba0fc2a7ddcc2a"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_attempts.csv",
+      "sha256": "ce87571b51b892e1b6eab7e54e85b726032a7d65e70397808d856e1e6dff4d11"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_cross_risks.csv",
+      "sha256": "c69930cc35c520401e27b60f9d017ba4a80883ba2f9a41731efa5d6c2ec64a65"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results3\\step3_acceptance_checks.csv",
+      "sha256": "feedd47758ffa9fc47015786a98a5bcd6037ee68484c737dbcb8483099faea12"
+    }
+  ]
+}
