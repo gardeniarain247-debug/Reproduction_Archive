@@ -1,0 +1,31 @@
+﻿parameter,value
+estimation_days,250
+holding_days,60
+step_days,60
+expected_windows,40
+min_observations,200
+membership_rule,estimation_start
+quantile_method,linear
+endpoint_schemes,"{""baseline"": [0.05, 0.25, 0.75, 0.95], ""alternative_a"": [0.05, 0.2, 0.8, 0.95], ""alternative_b"": [0.1, 0.3, 0.7, 0.9]}"
+bootstrap_block_lengths,"[5, 10]"
+bootstrap_replicates,300
+random_seed,42
+anomaly_abs_return,0.2
+start_date,2015-01-01
+end_date,2025-12-31
+adjustflag,1
+trading_days_per_year,252
+bond_file,bond_1_return_20140101_20260310.csv
+constituent_file,sh50_2015_2025.xlsx
+mode,build
+data_dir,D:\code6\data
+existing_results_dir,D:\code6\results1
+cache_dir,D:\code6\results1\baostock_cache
+bootstrap_method,non-circular moving-block; shared date vectors
+missing_values,retain synchronized date vectors; drop missing per asset in quantiles
+eligibility_for_alternatives,same baseline stock pool; no endpoint-based exclusion
+degenerate_endpoints,"flag only; no perturbation, exclusion or solver decision in stage1"
+risk_free_legacy_policy,annual percent / 100 / trading_days_per_year; exact reindex then ffill/bfill
+risk_free_build_policy,last available prior observation; leading missing prohibited
+price_return_policy,pct_change(fill_method=None)
+abnormal_returns,flag only; no winsorization

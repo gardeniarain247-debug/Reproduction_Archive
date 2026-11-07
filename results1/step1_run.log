@@ -1,0 +1,15 @@
+2026-11-01 09:13:23,512 INFO Stage1 started: BASELINE_BUILD (build)
+2026-11-01 09:13:26,782 INFO Saved: D:\code6\results1\windows_master_40.csv
+2026-11-01 09:13:26,784 INFO Saved: D:\code6\results1\input_data_audit.csv
+2026-11-01 09:13:26,793 INFO Saved: D:\code6\results1\universe_asset_audit.csv
+2026-11-01 09:13:26,842 INFO Saved: D:\code6\results1\endpoint_calibration.csv
+2026-11-01 09:13:26,859 INFO Saved: D:\code6\results1\risk_free_alignment_audit.csv
+2026-11-01 09:13:26,861 INFO Saved: D:\code6\results1\implementation_parameters.csv
+2026-11-01 09:13:27,412 INFO Saved synchronized bootstrap inputs: 120 arrays
+2026-11-01 09:13:27,801 INFO Saved: D:\code6\results1\full_return_matrix.csv
+2026-11-01 09:13:28,022 INFO Saved: D:\code6\results1\full_turnover_matrix.csv
+2026-11-01 09:13:28,030 INFO Saved: D:\code6\results1\risk_free_rate.csv
+2026-11-01 09:13:28,032 INFO Saved: D:\code6\results1\rolling_windows.csv
+2026-11-01 09:13:28,042 INFO Saved: D:\code6\results1\windows_universe.csv
+2026-11-01 09:13:28,072 INFO Saved: D:\code6\results1\fuzzy_parameters.csv
+2026-11-01 09:13:28,176 INFO Completed: {'review': 12, 'pass': 7, 'info': 4, 'pending': 4}

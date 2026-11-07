@@ -1,0 +1,28 @@
+﻿check_id,scope,status,actual,expected,detail
+completed_windows,dataset,pass,40,40,
+window_timing,dataset,pass,True,True,
+infinite_returns,dataset,pass,0,0,
+missing_return_observations,dataset,info,32523,,Retained; no holding data used to filter eligibility
+large_absolute_return,688256,review,0.29001883239171367,0.2,date=2020-07-21; no automatic removal
+large_absolute_return,688256,review,0.20001952362358466,0.2,date=2023-03-17; no automatic removal
+large_absolute_return,688256,review,-0.20000000000000007,0.2,date=2023-10-23; no automatic removal
+large_absolute_return,688256,review,0.20000000000000018,0.2,date=2024-07-16; no automatic removal
+large_absolute_return,688981,review,0.20004000800160027,0.2,date=2024-09-30; no automatic removal
+large_absolute_return,688008,review,0.2000598086124401,0.2,date=2024-10-08; no automatic removal
+large_absolute_return,688041,review,0.20003872966692482,0.2,date=2024-10-08; no automatic removal
+large_absolute_return,688981,review,0.20003333888981478,0.2,date=2024-10-08; no automatic removal
+large_absolute_return,688256,review,0.20000558518808131,0.2,date=2024-10-18; no automatic removal
+large_absolute_return,688041,review,0.20002173558658898,0.2,date=2025-09-11; no automatic removal
+endpoint_order,dataset,review,12,0,No jitter or exclusion; solver policy must handle flagged cases
+training_missing_value_policy,dataset,info,dropna separately per asset,,Bootstrap retains synchronized date vectors and their missing values
+membership_reference,dataset,info,estimation_start; inclusive boundaries,,"Historical baseline, not a rebalance-date universe"
+membership_changes_before_holding,dataset,review,40,,Windows with different holding-start constituent sets
+holding_missing_eligible_returns,dataset,pass,0,0,
+risk_free_exact_date_missing,dataset,info,14,,Original alignment forward-filled exact-date gaps
+risk_free_future_backfill,dataset,pass,0,0,
+risk_free_causal_missing,dataset,pass,0,0,
+risk_free_legacy_vs_causal,dataset,pass,0.0,abs difference <= 1e-12; equal missing mask,
+cached_price_adjustment_provenance,dataset,pending,not verified,,Original code requests adjustflag=1; cache has no request metadata
+suspension_and_listing_provenance,dataset,pending,not verified,,Cache date/close/turn cannot identify suspension or listing reasons
+dividend_and_constituent_effective_date_provenance,dataset,pending,not verified,,"Requires source documentation, not inferred from tables"
+paper_g2_version,dataset,pending,not verified,,Current supplied PDF is hashed; its g2 label is unverified
