@@ -1,0 +1,14 @@
+task,computed
+BASELINE_AUDIT,True
+CVAR02_ROBUSTNESS,True
+ENDPOINT_ALT,True
+K1_NEUTRAL,True
+KPURE_CONTROL,True
+K_HETEROG,True
+RVAR_INTERVAL,True
+step4_structure_summary.csv,True
+step4_state_performance.csv,True
+step4_state_contrasts.csv,True
+step4_neutral_reference.csv,True
+step4_heterogeneity_mechanisms.csv,True
+step4_inference_sensitivity.csv,True

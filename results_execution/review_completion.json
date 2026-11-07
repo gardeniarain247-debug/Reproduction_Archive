@@ -1,0 +1,66 @@
+{
+  "status": "real_data_calculations_completed_with_disclosed_limits",
+  "pipeline_model": "ModelA",
+  "real_data_required": true,
+  "pilot": false,
+  "limits": [
+    "Conditional ki projection is not identified investor preference dispersion",
+    "Turnover proxy does not certify close-price execution or corporate-action accounting",
+    "Statistical computation does not guarantee significant findings"
+  ],
+  "source_stage1_metadata_sha256": "b15eb25ec2e87c7779a6d755ea8c0dd94763adab7e97afab46af1b15e9176888",
+  "checks": [
+    {
+      "task": "BASELINE_AUDIT",
+      "computed": true
+    },
+    {
+      "task": "CVAR02_ROBUSTNESS",
+      "computed": true
+    },
+    {
+      "task": "ENDPOINT_ALT",
+      "computed": true
+    },
+    {
+      "task": "K1_NEUTRAL",
+      "computed": true
+    },
+    {
+      "task": "KPURE_CONTROL",
+      "computed": true
+    },
+    {
+      "task": "K_HETEROG",
+      "computed": true
+    },
+    {
+      "task": "RVAR_INTERVAL",
+      "computed": true
+    },
+    {
+      "task": "step4_structure_summary.csv",
+      "computed": true
+    },
+    {
+      "task": "step4_state_performance.csv",
+      "computed": true
+    },
+    {
+      "task": "step4_state_contrasts.csv",
+      "computed": true
+    },
+    {
+      "task": "step4_neutral_reference.csv",
+      "computed": true
+    },
+    {
+      "task": "step4_heterogeneity_mechanisms.csv",
+      "computed": true
+    },
+    {
+      "task": "step4_inference_sensitivity.csv",
+      "computed": true
+    }
+  ]
+}

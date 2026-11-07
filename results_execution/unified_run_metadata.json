@@ -1,0 +1,8 @@
+{
+  "status": "computed_requested_diagnostics_with_disclosed_open_evidence",
+  "source": "D:\\code6\\results_execution",
+  "baseline_rerun": true,
+  "with_execution": true,
+  "completion_directory": "D:\\code6\\results_execution\\completion",
+  "all_reviewer_comments_certified": false
+}
