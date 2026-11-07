@@ -1,0 +1,126 @@
+test_cash_fee_budget_and_fees_both_sides (test_execution_correction.ExecutionTests.test_cash_fee_budget_and_fees_both_sides) ... ok
+test_infeasible_preserves_failure (test_execution_correction.ExecutionTests.test_infeasible_preserves_failure) ... ok
+test_locked_asset_above_cap_and_forced_exit (test_execution_correction.ExecutionTests.test_locked_asset_above_cap_and_forced_exit) ... ok
+test_numeric_error_is_not_target_relaxation (test_execution_correction.ExecutionTests.test_numeric_error_is_not_target_relaxation) ... ok
+test_osqp_no_version_specific_polishing_keyword (test_execution_correction.ExecutionTests.test_osqp_no_version_specific_polishing_keyword) ... ok
+test_return_and_objective_reconstructed (test_execution_correction.ExecutionTests.test_return_and_objective_reconstructed) ... ok
+test_zero_position_untradable_has_no_purchase (test_execution_correction.ExecutionTests.test_zero_position_untradable_has_no_purchase) ... ok
+test_acf_ties_and_median (test_ki_calibration.ShapeCalibrationTests.test_acf_ties_and_median) ... ok
+test_affine_invariance_of_projection (test_ki_calibration.ShapeCalibrationTests.test_affine_invariance_of_projection) ... ok
+test_boundary_solution_kept_and_flagged (test_ki_calibration.ShapeCalibrationTests.test_boundary_solution_kept_and_flagged) ... ok
+test_constant_and_degenerate_not_imputed (test_ki_calibration.ShapeCalibrationTests.test_constant_and_degenerate_not_imputed) ... ok
+test_core_residual_cannot_be_removed_by_k (test_ki_calibration.ShapeCalibrationTests.test_core_residual_cannot_be_removed_by_k) ... ok
+test_flat_objective_is_not_identified (test_ki_calibration.ShapeCalibrationTests.test_flat_objective_is_not_identified) ... ok
+test_global_search_finds_two_equal_minima (test_ki_calibration.ShapeCalibrationTests.test_global_search_finds_two_equal_minima) ... ok
+test_incompatible_free_shape_has_nonzero_restriction_cost (test_ki_calibration.ShapeCalibrationTests.test_incompatible_free_shape_has_nonzero_restriction_cost) ... ok
+test_infinite_returns_are_rejected (test_ki_calibration.ShapeCalibrationTests.test_infinite_returns_are_rejected) ... ok
+test_mean_core_is_not_same_convention (test_ki_calibration.ShapeCalibrationTests.test_mean_core_is_not_same_convention) ... ok
+test_mean_inverse_and_outside_cases (test_ki_calibration.ShapeCalibrationTests.test_mean_inverse_and_outside_cases) ... ok
+test_midrank_curve_against_four_hand_values (test_ki_calibration.ShapeCalibrationTests.test_midrank_curve_against_four_hand_values) ... ok
+test_near_mean_boundary_flag (test_ki_calibration.ShapeCalibrationTests.test_near_mean_boundary_flag) ... ok
+test_neutral_curve_hand_calculation (test_ki_calibration.ShapeCalibrationTests.test_neutral_curve_hand_calculation) ... ok
+test_reciprocal_exponents (test_ki_calibration.ShapeCalibrationTests.test_reciprocal_exponents) ... ok
+test_weak_profile_is_flagged (test_ki_calibration.ShapeCalibrationTests.test_weak_profile_is_flagged) ... ok
+test_all_regular_experiments_uncertainty_inference_and_figures (test_pipeline.PipelineTests.test_all_regular_experiments_uncertainty_inference_and_figures) ... ok
+test_common_shape_closure_can_fail (test_remaining_experiments.RemainingTests.test_common_shape_closure_can_fail) ... ok
+test_controlled_paths_use_same_cash_initial_not_policy_history (test_remaining_experiments.RemainingTests.test_controlled_paths_use_same_cash_initial_not_policy_history) ... ok
+test_heterogeneous_shapes_not_claimed_empirical_preferences (test_remaining_experiments.RemainingTests.test_heterogeneous_shapes_not_claimed_empirical_preferences) ... ok
+test_invalid_sample_count_rejected_before_io (test_remaining_experiments.RemainingTests.test_invalid_sample_count_rejected_before_io) ... ok
+test_tail_path_contains_three_exact_criteria (test_remaining_experiments.RemainingTests.test_tail_path_contains_three_exact_criteria) ... ok
+test_accepted_includes_relaxed_but_never_failed (test_review_completion.CompletionTests.test_accepted_includes_relaxed_but_never_failed) ... ok
+test_cap_audit_separates_pretrade_from_postfee_denominator (test_review_completion.CompletionTests.test_cap_audit_separates_pretrade_from_postfee_denominator) ... ok
+test_closure_example_preserves_additivity (test_review_completion.CompletionTests.test_closure_example_preserves_additivity) ... ok
+test_data_cache_reconciliation_and_no_false_event_certificate (test_review_completion.CompletionTests.test_data_cache_reconciliation_and_no_false_event_certificate) ... ok
+test_delayed_end_to_end_and_failed_repair_stays_failed (test_review_completion.CompletionTests.test_delayed_end_to_end_and_failed_repair_stays_failed) ... ok
+test_delayed_new_buy_does_not_earn_first_day (test_review_completion.CompletionTests.test_delayed_new_buy_does_not_earn_first_day) ... ok
+test_delayed_old_holdings_and_fee_use_execution_nav (test_review_completion.CompletionTests.test_delayed_old_holdings_and_fee_use_execution_nav) ... ok
+test_finish_entry_runs_all_three_separate_execution_policies (test_review_completion.CompletionTests.test_finish_entry_runs_all_three_separate_execution_policies) ... ok
+test_flat_windows_manifest_and_tamper (test_review_completion.CompletionTests.test_flat_windows_manifest_and_tamper) ... ok
+test_proxy_rejection_aborts_instead_of_using_future_reoptimization (test_review_completion.CompletionTests.test_proxy_rejection_aborts_instead_of_using_future_reoptimization) ... ok
+test_repair_does_not_unlock_impossible_positions (test_review_completion.CompletionTests.test_repair_does_not_unlock_impossible_positions) ... ok
+test_repair_respects_budget_and_floor_but_not_original_target (test_review_completion.CompletionTests.test_repair_respects_budget_and_floor_but_not_original_target) ... ok
+test_bootstrap_handles_partial_final_block (test_step1.Stage1Tests.test_bootstrap_handles_partial_final_block) ... ok
+test_bootstrap_uses_contiguous_training_blocks_shared_across_assets (test_step1.Stage1Tests.test_bootstrap_uses_contiguous_training_blocks_shared_across_assets) ... ok
+test_calibration_is_independent_of_holding_returns (test_step1.Stage1Tests.test_calibration_is_independent_of_holding_returns) ... ok
+test_causal_risk_free_does_not_use_future_observations (test_step1.Stage1Tests.test_causal_risk_free_does_not_use_future_observations) ... ok
+test_complete_windows_and_no_future_overlap (test_step1.Stage1Tests.test_complete_windows_and_no_future_overlap) ... ok
+test_configuration_validation (test_step1.Stage1Tests.test_configuration_validation) ... ok
+test_import_does_not_read_write_or_load_network (test_step1.Stage1Tests.test_import_does_not_read_write_or_load_network) ... ok
+test_no_overwrite_and_build_cannot_target_baseline (test_step1.Stage1Tests.test_no_overwrite_and_build_cannot_target_baseline) ... ok
+test_offline_build_writes_compatible_outputs_and_failed_checks_block_core (test_step1.Stage1Tests.test_offline_build_writes_compatible_outputs_and_failed_checks_block_core) ... ok
+test_offline_missing_cache_never_downloads (test_step1.Stage1Tests.test_offline_missing_cache_never_downloads) ... ok
+test_quantiles_and_degeneracy_are_not_silently_adjusted (test_step1.Stage1Tests.test_quantiles_and_degeneracy_are_not_silently_adjusted) ... ok
+test_assetwise_heterogeneous_coefficients (test_step2.Stage2Tests.test_assetwise_heterogeneous_coefficients) ... ok
+test_asymmetric_fee_rejected (test_step2.Stage2Tests.test_asymmetric_fee_rejected) ... ok
+test_common_object_identity_and_ordering (test_step2.Stage2Tests.test_common_object_identity_and_ordering) ... ok
+test_data_relocation_hash_validation (test_step2.Stage2Tests.test_data_relocation_hash_validation) ... ok
+test_interval_changes_risk_not_mean (test_step2.Stage2Tests.test_interval_changes_risk_not_mean) ... ok
+test_modelB_rejected (test_step2.Stage2Tests.test_modelB_rejected) ... ok
+test_no_mean_reward_in_objective (test_step2.Stage2Tests.test_no_mean_reward_in_objective) ... ok
+test_partial_heterogeneity_only_chosen_assets (test_step2.Stage2Tests.test_partial_heterogeneity_only_chosen_assets) ... ok
+test_relaxation_scales_unified (test_step2.Stage2Tests.test_relaxation_scales_unified) ... ok
+test_risk_tail_mapping (test_step2.Stage2Tests.test_risk_tail_mapping) ... ok
+test_standard_has_all_required_regular_experiments (test_step2.Stage2Tests.test_standard_has_all_required_regular_experiments) ... ok
+test_buy_and_hold_matches_share_value (test_step3.Stage3Tests.test_buy_and_hold_matches_share_value) ... ok
+test_cash_fallback_earns_rf_not_zero (test_step3.Stage3Tests.test_cash_fallback_earns_rf_not_zero) ... ok
+test_emew_preserves_locked_holding (test_step3.Stage3Tests.test_emew_preserves_locked_holding) ... ok
+test_emew_uses_own_fees_and_exact_postfee_exposure (test_step3.Stage3Tests.test_emew_uses_own_fees_and_exact_postfee_exposure) ... ok
+test_existing_outputs_not_overwritten (test_step3.Stage3Tests.test_existing_outputs_not_overwritten) ... ok
+test_hash_tamper_rejected (test_step3.Stage3Tests.test_hash_tamper_rejected) ... ok
+test_heterogeneity_current_pool_and_locked_exit (test_step3.Stage3Tests.test_heterogeneity_current_pool_and_locked_exit) ... ok
+test_missing_held_asset_aborts (test_step3.Stage3Tests.test_missing_held_asset_aborts) ... ok
+test_missing_unheld_asset_does_not_poison (test_step3.Stage3Tests.test_missing_unheld_asset_does_not_poison) ... ok
+test_no_trade_hold_continues_actual_positions (test_step3.Stage3Tests.test_no_trade_hold_continues_actual_positions) ... ok
+test_price_drift_changes_next_initial_weights (test_step3.Stage3Tests.test_price_drift_changes_next_initial_weights) ... ok
+test_zero_position_unavailable_gets_no_equal_weight (test_step3.Stage3Tests.test_zero_position_unavailable_gets_no_equal_weight) ... ok
+test_bootstrap_preserves_segment_lengths (test_step4.StatisticsTests.test_bootstrap_preserves_segment_lengths) ... ok
+test_drawdown_initial_nav_and_gaps (test_step4.StatisticsTests.test_drawdown_initial_nav_and_gaps) ... ok
+test_duplicate_and_nonfinite_inputs_rejected (test_step4.StatisticsTests.test_duplicate_and_nonfinite_inputs_rejected) ... ok
+test_fractional_es_hand_example (test_step4.StatisticsTests.test_fractional_es_hand_example) ... ok
+test_hac_does_not_close_calendar_gaps (test_step4.StatisticsTests.test_hac_does_not_close_calendar_gaps) ... ok
+test_hac_matches_dense_calendar_kernel (test_step4.StatisticsTests.test_hac_matches_dense_calendar_kernel) ... ok
+test_holm_na_and_known_answer (test_step4.StatisticsTests.test_holm_na_and_known_answer) ... ok
+test_identical_series_flagged_not_p_zero (test_step4.StatisticsTests.test_identical_series_flagged_not_p_zero) ... ok
+test_matching_centered_interval_and_test (test_step4.StatisticsTests.test_matching_centered_interval_and_test) ... ok
+test_neutral_and_heterogeneity_pair_definitions (test_step4.StatisticsTests.test_neutral_and_heterogeneity_pair_definitions) ... ok
+test_repeated_comparison_same_random_stream (test_step4.StatisticsTests.test_repeated_comparison_same_random_stream) ... ok
+test_sharpe_definition_matches_current_net_return_sd (test_step4.StatisticsTests.test_sharpe_definition_matches_current_net_return_sd) ... ok
+test_short_segment_not_silently_dropped_or_shortened (test_step4.StatisticsTests.test_short_segment_not_silently_dropped_or_shortened) ... ok
+test_state_contrast_hand_mean_difference (test_step4.StatisticsTests.test_state_contrast_hand_mean_difference) ... ok
+test_state_insufficient_group_not_fake_zero (test_step4.StatisticsTests.test_state_insufficient_group_not_fake_zero) ... ok
+test_tail_integral_identity (test_step4.StatisticsTests.test_tail_integral_identity) ... ok
+test_unique_hypotheses_not_double_corrected (test_step4.StatisticsTests.test_unique_hypotheses_not_double_corrected) ... ok
+test_zero_difference_not_claimed_significant (test_step4.StatisticsTests.test_zero_difference_not_claimed_significant) ... ok
+test_changed_table_hash_rejected (test_step5.FigureTests.test_changed_table_hash_rejected) ... ok
+test_different_stage3_and_stage4_provenance_rejected (test_step5.FigureTests.test_different_stage3_and_stage4_provenance_rejected) ... ok
+test_failed_or_old_inputs_rejected_before_plotting (test_step5.FigureTests.test_failed_or_old_inputs_rejected_before_plotting) ... ok
+test_import_does_not_generate_figures (test_step5.FigureTests.test_import_does_not_generate_figures) ... ok
+test_unrelated_output_preserved (test_step5.FigureTests.test_unrelated_output_preserved) ... ok
+test_execution_without_inputs_rejected_before_work (test_unified_entry.UnifiedEntryTests.test_execution_without_inputs_rejected_before_work) ... usage: python -m unittest [-h] [--input INPUT] [--data DATA] [--cache CACHE]
+                          [--source SOURCE] [--out-root OUT_ROOT]
+                          [--with-execution] [--tests-only] [--pilot]
+                          [--replicates REPLICATES]
+                          [--endpoint-replicates ENDPOINT_REPLICATES]
+python -m unittest: error: --source with --with-execution requires --input and --data
+ok
+test_existing_results_skip_baseline (test_unified_entry.UnifiedEntryTests.test_existing_results_skip_baseline) ... Using existing results; Step2–5 will not be rerun
+Step 2/2: completion statistics and requested execution diagnostics
+UNIFIED RUN FINISHED: computed
+Execution variants not requested. Use --with-execution with full inputs to compute them.
+ok
+test_full_pipeline_automatically_calls_completion (test_unified_entry.UnifiedEntryTests.test_full_pipeline_automatically_calls_completion) ... Step 1/2: baseline Step2–5 and original reviewer experiments
+Step 2/2: completion statistics and requested execution diagnostics
+UNIFIED RUN FINISHED: computed
+ok
+test_nonempty_output_rejected_before_baseline (test_unified_entry.UnifiedEntryTests.test_nonempty_output_rejected_before_baseline) ... usage: python -m unittest [-h] [--input INPUT] [--data DATA] [--cache CACHE]
+                          [--source SOURCE] [--out-root OUT_ROOT]
+                          [--with-execution] [--tests-only] [--pilot]
+                          [--replicates REPLICATES]
+                          [--endpoint-replicates ENDPOINT_REPLICATES]
+python -m unittest: error: Use a new/empty --out-root to preserve existing results
+ok
+
+----------------------------------------------------------------------
+Ran 102 tests in 46.864s
+
+OK

@@ -1,0 +1,28 @@
+test_execution_without_inputs_rejected_before_work (test_unified_entry.UnifiedEntryTests.test_execution_without_inputs_rejected_before_work) ... usage: python -m unittest [-h] [--input INPUT] [--data DATA] [--cache CACHE]
+                          [--source SOURCE] [--out-root OUT_ROOT]
+                          [--with-execution] [--tests-only] [--pilot]
+                          [--replicates REPLICATES]
+                          [--endpoint-replicates ENDPOINT_REPLICATES]
+python -m unittest: error: --source with --with-execution requires --input and --data
+ok
+test_existing_results_skip_baseline (test_unified_entry.UnifiedEntryTests.test_existing_results_skip_baseline) ... Using existing results; Step2–5 will not be rerun
+Step 2/2: completion statistics and requested execution diagnostics
+UNIFIED RUN FINISHED: computed
+Execution variants not requested. Use --with-execution with full inputs to compute them.
+ok
+test_full_pipeline_automatically_calls_completion (test_unified_entry.UnifiedEntryTests.test_full_pipeline_automatically_calls_completion) ... Step 1/2: baseline Step2–5 and original reviewer experiments
+Step 2/2: completion statistics and requested execution diagnostics
+UNIFIED RUN FINISHED: computed
+ok
+test_nonempty_output_rejected_before_baseline (test_unified_entry.UnifiedEntryTests.test_nonempty_output_rejected_before_baseline) ... usage: python -m unittest [-h] [--input INPUT] [--data DATA] [--cache CACHE]
+                          [--source SOURCE] [--out-root OUT_ROOT]
+                          [--with-execution] [--tests-only] [--pilot]
+                          [--replicates REPLICATES]
+                          [--endpoint-replicates ENDPOINT_REPLICATES]
+python -m unittest: error: Use a new/empty --out-root to preserve existing results
+ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.009s
+
+OK

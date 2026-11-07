@@ -1,0 +1,6 @@
+test_osqp_no_version_specific_polishing_keyword (test_execution_correction.ExecutionTests.test_osqp_no_version_specific_polishing_keyword) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.887s
+
+OK
