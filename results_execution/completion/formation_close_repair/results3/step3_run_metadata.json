@@ -1,0 +1,94 @@
+{
+  "stage": 3,
+  "status": "accepted_modelA_stage3",
+  "pipeline_model": "ModelA",
+  "pipeline_revision": "review_completion_v1",
+  "scope": "full",
+  "policy": {
+    "objective": "pure_downside",
+    "cost_buy": 0.003,
+    "cost_sell": 0.003,
+    "weight_upper": 0.3,
+    "cash_lower": 0.0,
+    "trading_days": 252,
+    "revision_relaxation_scales": [
+      1.0,
+      0.95,
+      0.9,
+      0.85
+    ],
+    "solver_method": "highs",
+    "solver_options": {
+      "primal_feasibility_tolerance": 1e-07,
+      "dual_feasibility_tolerance": 1e-07,
+      "ipm_optimality_tolerance": 1e-08
+    },
+    "constraint_tolerance": 1e-07,
+    "baseline_weight_tolerance": 1e-06,
+    "initial_weight_rule": "cash_first_then_own_last_success_current_pool",
+    "exit_asset_cost": "include_forced_liquidations",
+    "degenerate_endpoint_policy": "preserve_algebraic_limit_and_flag",
+    "mv_reference_policy": "recompute_mv_as_separate_benchmark",
+    "heterogeneous_k0": 0.8,
+    "heterogeneous_deltas": [
+      0.1,
+      0.2
+    ],
+    "heterogeneous_partial_assets": 10,
+    "bootstrap_block_lengths": [
+      5,
+      10
+    ],
+    "bootstrap_replicates": 300,
+    "bootstrap_seed": 42,
+    "expected_windows": 40
+  },
+  "execution_variant": "formation_close",
+  "fallback_policy": "repair",
+  "source_stage2_metadata_sha256": "057c9e4fefcc29fc39b35809b3c5eb7792e8d3df62d1ed86375e8ca5b540b619",
+  "code_sha256": "9bfff09db616edad62a2665826d3522f8e0f10ba2bcaca52434c60e1cedcb050",
+  "failed_target_windows": 278,
+  "repaired_windows": 278,
+  "elapsed_seconds": 229.67947529999947,
+  "caveats": [
+    "Close-value rebalancing idealization; not actual share/order execution",
+    "Repair preserves original pretrade-NAV bounds, not continuous-time/postfee hard limits",
+    "Execution-day turnover rejects ineligible orders, eligible buys cash-scaled; no reoptimization using that observation",
+    "Conditional bootstrap module must not value delayed trades as formation-close trades"
+  ],
+  "finished_utc": "2026-11-01T06:57:56.010498+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\step3_daily_returns.parquet",
+      "sha256": "24364bc672a763f4f14e8560f55d261df445469e63d9727d6f900524d76428d5"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\step3_assets.parquet",
+      "sha256": "a9a239f5027b68f79a6c2547f424349050d5148f36e54b06f939da9ff2cb3cd3"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\step3_window_backtests.csv",
+      "sha256": "e29b5e6cb04c4d6a9192bc77c65ea0c81cfcbec5a115a3fef488ce747ad68af2"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\step3_attempts.csv",
+      "sha256": "3535a3c4337f4bf955b9ec8d238d4ced818fc247522aae6c8cd0b76ae83f189e"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\step3_cross_risks.csv",
+      "sha256": "66dd3971ecfb27538ccd52b5f890ceb9bddc16d4a1bb6df510b06e709b8b0d2f"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\step3_acceptance_checks.csv",
+      "sha256": "6d2b1e4b929ea9e12e64711071f1f4845ed9e2e3b5e162fc99c74db1d40f5e83"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\execution_timing_audit.csv",
+      "sha256": "c4741a52968402fd660e1da12fc6953b95880da911fb183169179bb2d75b83bd"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\formation_close_repair\\results3\\execution_fill_ledger.csv",
+      "sha256": "6789a67e643640c22cf9df6869f63f4a51781b920b98e6baca69246e961aa950"
+    }
+  ]
+}

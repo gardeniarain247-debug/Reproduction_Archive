@@ -1,0 +1,31 @@
+{
+  "status": "computed_completion_with_open_execution_and_data_evidence",
+  "pipeline_model": "ModelA",
+  "replicates": 2000,
+  "block_length": 10,
+  "seed": 42,
+  "source_step3_sha256": "1ea2ee294249355b4535d0341ecf1205fc4c76f454dbb329d4a64ed489a44a54",
+  "complete_raw_data_certificate": false,
+  "actual_execution_certificate": false,
+  "completion_code_sha256": "ba6ced87df7e3e32648000388b2142fe2333bc061c9f0c5fef2fa37d2a09165d",
+  "statistics_code_sha256": "d2a3cbfd11e9601438d8f1143cb04f9d86621fe5c016f2a98f2821de880509f5",
+  "scope_rule": "both_accepted includes Direct and Relaxed; failures excluded; full_policy retained separately",
+  "multiplicity": "Holm within purpose x scope x statistic, deduplicated; includes annual-return bootstrap",
+  "limitations": [
+    "Subset comparisons are not causal or unconditional whole-history estimates",
+    "Original same-close execution remains an assumption until separately evaluated",
+    "No inference of investor preferences from conditional shape projections"
+  ],
+  "outputs": {
+    "completion_pairs.csv": "bb8991b3234d802196607b72367a496bd047b261b1b74168ea4a83e300e809fd",
+    "completion_paired_performance.csv": "6f9a767f9c26fac29bb2a8100e06704e01a8e32704d8ca5e2d028a9b43cee6ef",
+    "completion_neutral_k1.csv": "cbfd6959c208421498f249178900ffe76725c6ba1dde12d7dec871a07a1e30da",
+    "completion_constraint_windows.csv": "30d11b22d5fd9eab3ee50ab6c005a2f5571a86d22214e41939dda745f183c51d",
+    "completion_constraint_summary.csv": "df96ca0bdf269b6d497421245216deee2d9a9e61e92f2b3ef6b518ccc3a9926e",
+    "completion_solver_timing.csv": "b7bd7d082031e68cc2947bae1f2cfd6b40ab3b33ae8192b0610dedbc7571dd35",
+    "completion_model_dimensions.csv": "a63074e1d8a7e125de3fe800acb1bddf53558d7d401ac3853de393ba68750c92",
+    "completion_source_integrity.csv": "4e6b496617757354f7c4b869b692f5aadd1d4f17188ba2b9cde87c9d96cf53f2",
+    "completion_input_evidence.csv": "400bfb4008a7baa2856e1e4777c9139872e75523fcb151ea920cd61ef66a08fd",
+    "completion_theory_checks.csv": "e535042186e6f367223f42105b8d11aeee827960766782c82f70015ae8e5216b"
+  }
+}
