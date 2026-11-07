@@ -1,0 +1,89 @@
+{
+  "stage": 4,
+  "status": "accepted_modelA_stage4",
+  "pipeline_model": "ModelA",
+  "pipeline_revision": "review_completion_v1",
+  "scope": "full",
+  "source_stage3_metadata_sha256": "e78190c5e391ea930dd92691f1e92ed9293d4d7b661f04b5cdb056ba205ebafe",
+  "statistics_code_sha256": "d2a3cbfd11e9601438d8f1143cb04f9d86621fe5c016f2a98f2821de880509f5",
+  "code_sha256": "546cdaf6ca29e97047dfea290e737909095b4f934ecc3d69633599be4b985a2d",
+  "started_utc": "2026-11-01T07:13:04.915941+00:00",
+  "inference": {
+    "replicates": 2000,
+    "block_length": 10,
+    "seed": 42,
+    "hac": "Bartlett Newey-West with automatic bandwidth; no cross-gap autocovariance",
+    "bootstrap": "paired moving blocks preserving segment lengths; short segments flagged, block never reduced",
+    "holm_family": "unique data fingerprints within purpose x scope x statistic",
+    "sharpe_p": "two-sided centered-error paired bootstrap with matching symmetric centered-error CI",
+    "minimum_sample": 10
+  },
+  "result_scope": "full-policy results include holds after infeasible optimization; direct-only results are selected-sample diagnostics",
+  "finished_utc": "2026-11-01T07:13:04.915941+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_performance.csv",
+      "sha256": "416562b9d2020f51e058eea3354e2c8a98c4c80b03e03e90ea9dcd00c8a91505"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_paired_comparisons.csv",
+      "sha256": "75c549aeea745e9b01a9a93bedd13aa38f7ebf713db8328812ec18a276896a8d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_pair_definitions.csv",
+      "sha256": "21c65752919fc776bae9cbd2bac63f438a3cd92698c223797ecaa29d3dea52bc"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_feasibility.csv",
+      "sha256": "382fd2eece9e9a73ed4839bbdb938d918dc89fdde5bcd6b3b7e4350b55d83f73"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_inference_sensitivity.csv",
+      "sha256": "a51b9544b782ed2c98ad7589bb37225951b1050584aeb845f7adb0ede5dec233"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_difference_acf.csv",
+      "sha256": "f4c4e3e75e43c590cc8ded84b10070435fed9dcc303ba09d34c5920e5daaa8be"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_substitution_common_samples.csv",
+      "sha256": "d4e92a623c82029d86aca5026c345ee0ebddcb618e69226968aa575d91ad6cd6"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_window_stability.csv",
+      "sha256": "7240edeef1f75c55a8d45201b9f9c8bce761bb9fb610b1ebba8695767d96b6a8"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_state_descriptive.csv",
+      "sha256": "e21b871790fe4d80c075a4a729c0141105f73b84872ad7d061d06e52d10723bf"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_structure_by_window.csv",
+      "sha256": "8b223fdc8c2cf31e916d67dd31af64a6cb9e9b5d4a0b3001808225955414dc6b"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_structure_summary.csv",
+      "sha256": "83f57fe060b8fd4372addf9189a379099cadd87c3502e63f8652139d67840468"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_state_performance.csv",
+      "sha256": "2d4d314e3253eb27734fc3a4fe04ec172cd910d5a81a3ff42ec76bc79b14beac"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_state_contrasts.csv",
+      "sha256": "f8ab8267be29fa155cb3db059b4c3506293b1f00dfadd904514c68d67add3d75"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_market_labels.csv",
+      "sha256": "72adf78b133f6a778829148b4008434cf3a04d97545469530e834e93dd8f69cb"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_heterogeneity_mechanisms.csv",
+      "sha256": "8b618ea5f856b2deb617bb354870d1dc95b68d1b758d25ded75434f642cfc10d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_repair\\results4\\step4_neutral_reference.csv",
+      "sha256": "ace941915d1257c61722c9026d87c193544ec8a41a1b6eccc3f673a173084130"
+    }
+  ]
+}
