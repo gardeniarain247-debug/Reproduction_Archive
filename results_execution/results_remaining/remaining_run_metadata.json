@@ -1,0 +1,40 @@
+{
+  "status": "computed_modelA_remaining_diagnostics",
+  "pipeline_model": "ModelA",
+  "scope": "full",
+  "endpoint_replicates": 300,
+  "source_stage3_metadata_sha256": "ad0d99d0286a14ea1b4aaeb6fb706b6e8d2da96382836f69bd75ed51a6362d8e",
+  "code_sha256": "8a10bd2094b7f45fca1c91d048ffcf45fe222cbd941d5cc9fc525bc4518ce5e3",
+  "limitations": "conditional calibration and fixed-reference uncertainty; not independently identified preferences or independent OOS replications",
+  "finished_utc": "2026-11-01T01:34:19.988720+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_controlled_tail_path.csv",
+      "sha256": "ae0fe05fa0fb2f7e9e068a5547fa048ff1ee5b158cc997c93664c1ea18fd7dcd"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_controlled_weights.parquet",
+      "sha256": "f08646dabbcdcb8bac4b4400ec7773830564e2cae726edabd1790c34daa6b516"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_endpoint_draws.parquet",
+      "sha256": "28b3342384cfaa55637a5c2efb31c5f827d6b18bf5d499da847f53f6100fb658"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_endpoint_intervals.csv",
+      "sha256": "241d6337643bc05b98ecc22dcb03cf0922e040277a78371a164c5d50b1bf3a3a"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_endpoint_summary.csv",
+      "sha256": "71cca414255ddd07d01fa710dac25a2f383c15ba62602608dd32682a7ff21a1c"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_shape_bootstrap.parquet",
+      "sha256": "56225ad33e18d023d59e024eb35ab7bcbd9c2fe05beaad7cc12dfb05c88b5661"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\remaining_shape_uncertainty.csv",
+      "sha256": "dbf8e865d23a344aed97242b94687572fd4d5b7d858a5b28a6a46d7f2457d415"
+    }
+  ]
+}

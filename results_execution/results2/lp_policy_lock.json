@@ -1,0 +1,1470 @@
+{
+  "policy": {
+    "objective": "pure_downside",
+    "cost_buy": 0.003,
+    "cost_sell": 0.003,
+    "weight_upper": 0.3,
+    "cash_lower": 0.0,
+    "trading_days": 252,
+    "revision_relaxation_scales": [
+      1.0,
+      0.95,
+      0.9,
+      0.85
+    ],
+    "solver_method": "highs",
+    "solver_options": {
+      "primal_feasibility_tolerance": 1e-07,
+      "dual_feasibility_tolerance": 1e-07,
+      "ipm_optimality_tolerance": 1e-08
+    },
+    "constraint_tolerance": 1e-07,
+    "baseline_weight_tolerance": 1e-06,
+    "initial_weight_rule": "cash_first_then_own_last_success_current_pool",
+    "exit_asset_cost": "include_forced_liquidations",
+    "degenerate_endpoint_policy": "preserve_algebraic_limit_and_flag",
+    "mv_reference_policy": "recompute_mv_as_separate_benchmark",
+    "heterogeneous_k0": 0.8,
+    "heterogeneous_deltas": [
+      0.1,
+      0.2
+    ],
+    "heterogeneous_partial_assets": 10,
+    "bootstrap_block_lengths": [
+      5,
+      10
+    ],
+    "bootstrap_replicates": 300,
+    "bootstrap_seed": 42,
+    "expected_windows": 40
+  },
+  "specs": [
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "CVaR_opt",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "RVaR_opt",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "CVaR_neu",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "RVaR_neu",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "CVaR_pes",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "RVaR_pes",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "CVAR02_ROBUSTNESS",
+      "model_id": "CVaR02_k05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.19999999999999996,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "CVAR02_ROBUSTNESS",
+      "model_id": "CVaR02_k08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.19999999999999996,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "CVAR02_ROBUSTNESS",
+      "model_id": "CVaR02_k11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.19999999999999996,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "KPURE_CONTROL",
+      "model_id": "CVaR_kpure05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "KPURE_CONTROL",
+      "model_id": "RVaR_kpure05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "KPURE_CONTROL",
+      "model_id": "CVaR_kpure08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "KPURE_CONTROL",
+      "model_id": "RVaR_kpure08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "KPURE_CONTROL",
+      "model_id": "CVaR_kpure11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "KPURE_CONTROL",
+      "model_id": "RVaR_kpure11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.050000000000000044,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "BASELINE_AUDIT",
+      "model_id": "MV",
+      "risk_measure": "MV",
+      "k": 1.0,
+      "target_annual": 0.08,
+      "exposure_floor": 0.6,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "FIXED_RULE_CONTROL",
+      "model_id": "RVaR_fixed_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "FIXED_RULE_CONTROL",
+      "model_id": "CVaR_fixed_k05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "FIXED_RULE_CONTROL",
+      "model_id": "RVaR_fixed_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "FIXED_RULE_CONTROL",
+      "model_id": "CVaR_fixed_k08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "FIXED_RULE_CONTROL",
+      "model_id": "RVaR_fixed_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "FIXED_RULE_CONTROL",
+      "model_id": "CVaR_fixed_k11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "K1_NEUTRAL",
+      "model_id": "RVaR_neutral_k1",
+      "risk_measure": "RVaR",
+      "k": 1.0,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "RVaR_heterog_control",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "none",
+      "delta": 0.0
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "RVaR_heterog_partial_10",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "partial",
+      "delta": 0.1
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "RVaR_heterog_partial_20",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "partial",
+      "delta": 0.2
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "RVaR_heterog_all_10",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "all",
+      "delta": 0.1
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "RVaR_heterog_all_20",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "all",
+      "delta": 0.2
+    },
+    {
+      "experiment_id": "K1_NEUTRAL",
+      "model_id": "CVaR_neutral_k1",
+      "risk_measure": "CVaR",
+      "k": 1.0,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "CVaR_heterog_control",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "none",
+      "delta": 0.0
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "CVaR_heterog_partial_10",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "partial",
+      "delta": 0.1
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "CVaR_heterog_partial_20",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "partial",
+      "delta": 0.2
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "CVaR_heterog_all_10",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "all",
+      "delta": 0.1
+    },
+    {
+      "experiment_id": "K_HETEROG",
+      "model_id": "CVaR_heterog_all_20",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ],
+      "heterog_scope": "all",
+      "delta": 0.2
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_baseline_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_alternative_a_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "alternative_a",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_alternative_b_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "alternative_b",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_baseline_k05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_alternative_a_k05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "alternative_a",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_alternative_b_k05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "alternative_b",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_baseline_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_a_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.15
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_b_k05",
+      "risk_measure": "RVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.1,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "CVaR_interval_control_k05",
+      "risk_measure": "CVaR",
+      "k": 0.5,
+      "target_annual": 0.12,
+      "exposure_floor": 0.9,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_baseline_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_alternative_a_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "alternative_a",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_alternative_b_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "alternative_b",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_baseline_k08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_alternative_a_k08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "alternative_a",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_alternative_b_k08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "alternative_b",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_baseline_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_a_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.15
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_b_k08",
+      "risk_measure": "RVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.1,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "CVaR_interval_control_k08",
+      "risk_measure": "CVaR",
+      "k": 0.8,
+      "target_annual": 0.08,
+      "exposure_floor": 0.5,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_baseline_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_alternative_a_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "alternative_a",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "RVaR_endpoint_alternative_b_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "alternative_b",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_baseline_k11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_alternative_a_k11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "alternative_a",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "ENDPOINT_ALT",
+      "model_id": "CVaR_endpoint_alternative_b_k11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "alternative_b",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_baseline_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_a_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.15
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "RVaR_interval_b_k11",
+      "risk_measure": "RVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.1,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    },
+    {
+      "experiment_id": "RVAR_INTERVAL",
+      "model_id": "CVaR_interval_control_k11",
+      "risk_measure": "CVaR",
+      "k": 1.1,
+      "target_annual": 0.05,
+      "exposure_floor": 0.1,
+      "endpoint_scheme": "baseline",
+      "interval": [
+        0.05,
+        0.2
+      ],
+      "gamma": 0.05,
+      "scales": [
+        1.0,
+        0.95,
+        0.9,
+        0.85
+      ]
+    }
+  ],
+  "asset_signs": {
+    "600000": -1,
+    "600009": 1,
+    "600010": -1,
+    "600015": 1,
+    "600016": -1,
+    "600018": 1,
+    "600019": -1,
+    "600028": 1,
+    "600029": -1,
+    "600030": 1,
+    "600031": -1,
+    "600036": 1,
+    "600048": -1,
+    "600050": 1,
+    "600089": -1,
+    "600100": 1,
+    "600104": -1,
+    "600109": 1,
+    "600111": -1,
+    "600150": 1,
+    "600196": -1,
+    "600256": 1,
+    "600276": -1,
+    "600309": 1,
+    "600332": -1,
+    "600340": 1,
+    "600346": -1,
+    "600372": 1,
+    "600406": -1,
+    "600436": 1,
+    "600438": -1,
+    "600485": 1,
+    "600518": -1,
+    "600519": 1,
+    "600547": -1,
+    "600570": 1,
+    "600583": -1,
+    "600585": 1,
+    "600588": -1,
+    "600606": 1,
+    "600637": -1,
+    "600690": 1,
+    "600703": -1,
+    "600745": 1,
+    "600795": -1,
+    "600809": 1,
+    "600837": -1,
+    "600887": 1,
+    "600893": -1,
+    "600900": 1,
+    "600905": -1,
+    "600918": 1,
+    "600919": -1,
+    "600941": 1,
+    "600958": -1,
+    "600999": 1,
+    "601006": -1,
+    "601012": 1,
+    "601066": -1,
+    "601088": 1,
+    "601111": -1,
+    "601118": 1,
+    "601138": -1,
+    "601166": 1,
+    "601169": -1,
+    "601186": 1,
+    "601198": -1,
+    "601211": 1,
+    "601225": -1,
+    "601229": 1,
+    "601236": -1,
+    "601288": 1,
+    "601318": -1,
+    "601319": 1,
+    "601328": -1,
+    "601336": 1,
+    "601360": -1,
+    "601377": 1,
+    "601390": -1,
+    "601398": 1,
+    "601601": -1,
+    "601628": 1,
+    "601633": -1,
+    "601658": 1,
+    "601668": -1,
+    "601669": 1,
+    "601688": -1,
+    "601727": 1,
+    "601728": -1,
+    "601766": 1,
+    "601788": -1,
+    "601800": 1,
+    "601816": -1,
+    "601818": 1,
+    "601857": -1,
+    "601878": 1,
+    "601881": -1,
+    "601888": 1,
+    "601899": -1,
+    "601901": 1,
+    "601919": -1,
+    "601939": 1,
+    "601985": -1,
+    "601988": 1,
+    "601989": -1,
+    "601995": 1,
+    "601998": -1,
+    "603160": 1,
+    "603259": -1,
+    "603260": 1,
+    "603288": -1,
+    "603501": 1,
+    "603799": -1,
+    "603986": 1,
+    "603993": -1,
+    "688012": 1,
+    "688041": -1,
+    "688111": 1,
+    "688599": -1,
+    "688981": 1
+  },
+  "bootstrap_policy": "fixed reference initial positions; samples never chained",
+  "degenerate_scope": "Algebraic deterministic limits retained, outside strict nondegenerate endpoint theorem",
+  "objective_note": "Single adopted model: minimum-downside risk minimization under a required net expected return; the risk--mean scalarized objective is removed",
+  "mv_note": "MV is recomputed as a separate benchmark with the same 0.30% trading fee",
+  "constant_objective_term": "Risk-minimization objective drops the decision-independent -r_f constant"
+}

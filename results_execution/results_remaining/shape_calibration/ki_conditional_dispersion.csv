@@ -1,0 +1,4 @@
+﻿variant,total_records,eligible_records,median_k,iqr_k,q05_k,q95_k,interpretation
+mean_balanced,2010,2006,0.9641762359330859,0.11727365312539628,0.8247408898088319,1.1207740499944292,conditional empirical-membership projection; not investor preference estimates
+median_balanced,2010,2006,1.0070954003623405,0.10025067441419622,0.8953096017320463,1.1331160029112715,conditional empirical-membership projection; not investor preference estimates
+median_equal_shoulders,2010,2006,1.0070954018866818,0.10025067074602678,0.8953095858730804,1.1331160067314143,conditional empirical-membership projection; not investor preference estimates

@@ -1,0 +1,61 @@
+{
+  "status": "computed_conditional_shape_diagnostics",
+  "pipeline_model": "ModelA",
+  "scope": "full",
+  "source_endpoint_sha256": "c63a4e7a4206d978df35a9a45f2c35f07d017f08946f121e592ef18f2a175c99",
+  "source_returns_sha256": "d8ca2aae019fc963e68fddb98ff1af4477d84eaa5b74a25b15ac0422ce0dfb8b",
+  "code_sha256": "238024ae9873aed2676d74cbb621678c4d5ce31e49b4f41dec7ee30c9fc5da54",
+  "policy": {
+    "k_min": 0.05,
+    "k_max": 20.0,
+    "grid_size": 161,
+    "quadrature_nodes": 65,
+    "flat_tolerance": 1e-12,
+    "weak_tolerance": 1e-05,
+    "variants": [
+      {
+        "name": "median_balanced",
+        "core": "median",
+        "weights": [
+          0.375,
+          0.25,
+          0.375
+        ]
+      },
+      {
+        "name": "median_equal_shoulders",
+        "core": "median",
+        "weights": [
+          0.5,
+          0.0,
+          0.5
+        ]
+      },
+      {
+        "name": "mean_balanced",
+        "core": "mean",
+        "weights": [
+          0.375,
+          0.25,
+          0.375
+        ]
+      }
+    ]
+  },
+  "estimand": "dispersion of fitted representations conditional on target-curve convention, not identified behavioral ki",
+  "finished_utc": "2026-11-01T01:34:19.973099+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\shape_calibration\\ki_asset_estimates.csv",
+      "sha256": "950084e6e2d9fe289c913c023f8e1b992715a2f2539ec979828f868e91016c33"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\shape_calibration\\ki_conditional_dispersion.csv",
+      "sha256": "df2e2a214a6d419a03eb81191796cd86b0b52e10b9d64ed95400ea0b4cc26c42"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results_remaining\\shape_calibration\\ki_common_shape_restriction.csv",
+      "sha256": "3ced20f933b0b9314171bbe46e9f9793062c0f6538ed9736e35d4599e2ccbb68"
+    }
+  ]
+}

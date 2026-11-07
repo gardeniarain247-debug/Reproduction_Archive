@@ -1,0 +1,66 @@
+2026-11-01T01:14:03.866801+00:00 BASELINE_AUDIT CVaR_opt: {'Direct': 40}
+2026-11-01T01:14:04.011525+00:00 BASELINE_AUDIT RVaR_opt: {'Direct': 40}
+2026-11-01T01:14:04.173057+00:00 BASELINE_AUDIT CVaR_neu: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:04.332056+00:00 BASELINE_AUDIT RVaR_neu: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:04.541446+00:00 BASELINE_AUDIT CVaR_pes: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:04.737447+00:00 BASELINE_AUDIT RVaR_pes: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:04.931446+00:00 CVAR02_ROBUSTNESS CVaR02_k05: {'Direct': 40}
+2026-11-01T01:14:05.087022+00:00 CVAR02_ROBUSTNESS CVaR02_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:05.275091+00:00 CVAR02_ROBUSTNESS CVaR02_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:05.433635+00:00 KPURE_CONTROL CVaR_kpure05: {'Direct': 40}
+2026-11-01T01:14:05.578377+00:00 KPURE_CONTROL RVaR_kpure05: {'Direct': 40}
+2026-11-01T01:14:05.734463+00:00 KPURE_CONTROL CVaR_kpure08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:05.901445+00:00 KPURE_CONTROL RVaR_kpure08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:06.151032+00:00 KPURE_CONTROL CVaR_kpure11: {'Failed': 22, 'Direct': 18}
+2026-11-01T01:14:06.398952+00:00 KPURE_CONTROL RVaR_kpure11: {'Failed': 22, 'Direct': 18}
+2026-11-01T01:14:08.042410+00:00 BASELINE_AUDIT MV: {'Direct': 34, 'Failed': 6}
+2026-11-01T01:14:08.205066+00:00 FIXED_RULE_CONTROL RVaR_fixed_k05: {'Direct': 40}
+2026-11-01T01:14:08.365838+00:00 FIXED_RULE_CONTROL CVaR_fixed_k05: {'Direct': 40}
+2026-11-01T01:14:08.543515+00:00 FIXED_RULE_CONTROL RVaR_fixed_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:08.700593+00:00 FIXED_RULE_CONTROL CVaR_fixed_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:08.930783+00:00 FIXED_RULE_CONTROL RVaR_fixed_k11: {'Failed': 22, 'Direct': 18}
+2026-11-01T01:14:09.162292+00:00 FIXED_RULE_CONTROL CVaR_fixed_k11: {'Failed': 22, 'Direct': 18}
+2026-11-01T01:14:09.372969+00:00 K1_NEUTRAL RVaR_neutral_k1: {'Direct': 26, 'Failed': 13, 'Relaxed': 1}
+2026-11-01T01:14:09.533760+00:00 K_HETEROG RVaR_heterog_control: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:09.690837+00:00 K_HETEROG RVaR_heterog_partial_10: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:09.839831+00:00 K_HETEROG RVaR_heterog_partial_20: {'Direct': 38, 'Failed': 1, 'Relaxed': 1}
+2026-11-01T01:14:09.995763+00:00 K_HETEROG RVaR_heterog_all_10: {'Direct': 39, 'Failed': 1}
+2026-11-01T01:14:10.165231+00:00 K_HETEROG RVaR_heterog_all_20: {'Direct': 40}
+2026-11-01T01:14:10.371850+00:00 K1_NEUTRAL CVaR_neutral_k1: {'Direct': 26, 'Failed': 12, 'Relaxed': 2}
+2026-11-01T01:14:10.560936+00:00 K_HETEROG CVaR_heterog_control: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:10.713857+00:00 K_HETEROG CVaR_heterog_partial_10: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:10.873855+00:00 K_HETEROG CVaR_heterog_partial_20: {'Direct': 38, 'Failed': 1, 'Relaxed': 1}
+2026-11-01T01:14:11.041857+00:00 K_HETEROG CVaR_heterog_all_10: {'Direct': 39, 'Failed': 1}
+2026-11-01T01:14:11.201928+00:00 K_HETEROG CVaR_heterog_all_20: {'Direct': 40}
+2026-11-01T01:14:11.347874+00:00 ENDPOINT_ALT RVaR_endpoint_baseline_k05: {'Direct': 40}
+2026-11-01T01:14:11.507805+00:00 ENDPOINT_ALT RVaR_endpoint_alternative_a_k05: {'Direct': 40}
+2026-11-01T01:14:11.648902+00:00 ENDPOINT_ALT RVaR_endpoint_alternative_b_k05: {'Direct': 40}
+2026-11-01T01:14:11.795836+00:00 ENDPOINT_ALT CVaR_endpoint_baseline_k05: {'Direct': 40}
+2026-11-01T01:14:11.975270+00:00 ENDPOINT_ALT CVaR_endpoint_alternative_a_k05: {'Direct': 40}
+2026-11-01T01:14:12.144833+00:00 ENDPOINT_ALT CVaR_endpoint_alternative_b_k05: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:12.301922+00:00 RVAR_INTERVAL RVaR_interval_baseline_k05: {'Direct': 40}
+2026-11-01T01:14:12.477509+00:00 RVAR_INTERVAL RVaR_interval_a_k05: {'Direct': 40}
+2026-11-01T01:14:12.636509+00:00 RVAR_INTERVAL RVaR_interval_b_k05: {'Direct': 40}
+2026-11-01T01:14:12.801509+00:00 RVAR_INTERVAL CVaR_interval_control_k05: {'Direct': 40}
+2026-11-01T01:14:13.054303+00:00 ENDPOINT_ALT RVaR_endpoint_baseline_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:13.219006+00:00 ENDPOINT_ALT RVaR_endpoint_alternative_a_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:13.382806+00:00 ENDPOINT_ALT RVaR_endpoint_alternative_b_k08: {'Direct': 37, 'Failed': 3}
+2026-11-01T01:14:13.550742+00:00 ENDPOINT_ALT CVaR_endpoint_baseline_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:13.726741+00:00 ENDPOINT_ALT CVaR_endpoint_alternative_a_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:13.927641+00:00 ENDPOINT_ALT CVaR_endpoint_alternative_b_k08: {'Direct': 36, 'Failed': 4}
+2026-11-01T01:14:14.102447+00:00 RVAR_INTERVAL RVaR_interval_baseline_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:14.276242+00:00 RVAR_INTERVAL RVaR_interval_a_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:14.444171+00:00 RVAR_INTERVAL RVaR_interval_b_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:14.626818+00:00 RVAR_INTERVAL CVaR_interval_control_k08: {'Direct': 38, 'Failed': 2}
+2026-11-01T01:14:14.847816+00:00 ENDPOINT_ALT RVaR_endpoint_baseline_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:15.036573+00:00 ENDPOINT_ALT RVaR_endpoint_alternative_a_k11: {'Direct': 34, 'Failed': 6}
+2026-11-01T01:14:15.285899+00:00 ENDPOINT_ALT RVaR_endpoint_alternative_b_k11: {'Failed': 25, 'Direct': 13, 'Relaxed': 2}
+2026-11-01T01:14:15.497139+00:00 ENDPOINT_ALT CVaR_endpoint_baseline_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:15.669874+00:00 ENDPOINT_ALT CVaR_endpoint_alternative_a_k11: {'Direct': 34, 'Failed': 6}
+2026-11-01T01:14:15.908875+00:00 ENDPOINT_ALT CVaR_endpoint_alternative_b_k11: {'Failed': 26, 'Direct': 12, 'Relaxed': 2}
+2026-11-01T01:14:16.106549+00:00 RVAR_INTERVAL RVaR_interval_baseline_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:16.303548+00:00 RVAR_INTERVAL RVaR_interval_a_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:16.512255+00:00 RVAR_INTERVAL RVaR_interval_b_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:16.732178+00:00 RVAR_INTERVAL CVaR_interval_control_k11: {'Direct': 25, 'Failed': 14, 'Relaxed': 1}
+2026-11-01T01:14:16.888602+00:00 WARNING: 359 unsolved evaluations remain; NaN weights are not executable portfolios. Stage3 must explicitly handle failed windows.
+2026-11-01T01:14:21.860859+00:00 Stage2 finished; backtest/performance validation remains in stages3/4

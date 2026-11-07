@@ -1,0 +1,217 @@
+{
+  "run_id": "step2_20261101T011403278353Z",
+  "stage": 2,
+  "experiment_id": "standard",
+  "started_utc": "2026-11-01T01:14:03.278353+00:00",
+  "code_sha256": "1399f725556e924b744c5a42b168811cbda2473eff04a83b68f7d7dda7e0d622",
+  "policy": {
+    "objective": "pure_downside",
+    "cost_buy": 0.003,
+    "cost_sell": 0.003,
+    "weight_upper": 0.3,
+    "cash_lower": 0.0,
+    "trading_days": 252,
+    "revision_relaxation_scales": [
+      1.0,
+      0.95,
+      0.9,
+      0.85
+    ],
+    "solver_method": "highs",
+    "solver_options": {
+      "primal_feasibility_tolerance": 1e-07,
+      "dual_feasibility_tolerance": 1e-07,
+      "ipm_optimality_tolerance": 1e-08
+    },
+    "constraint_tolerance": 1e-07,
+    "baseline_weight_tolerance": 1e-06,
+    "initial_weight_rule": "cash_first_then_own_last_success_current_pool",
+    "exit_asset_cost": "include_forced_liquidations",
+    "degenerate_endpoint_policy": "preserve_algebraic_limit_and_flag",
+    "mv_reference_policy": "recompute_mv_as_separate_benchmark",
+    "heterogeneous_k0": 0.8,
+    "heterogeneous_deltas": [
+      0.1,
+      0.2
+    ],
+    "heterogeneous_partial_assets": 10,
+    "bootstrap_block_lengths": [
+      5,
+      10
+    ],
+    "bootstrap_replicates": 300,
+    "bootstrap_seed": 42,
+    "expected_windows": 40
+  },
+  "settings": {
+    "objective": "pure_downside",
+    "cost_buy": 0.003,
+    "cost_sell": 0.003,
+    "weight_upper": 0.3,
+    "cash_lower": 0.0,
+    "trading_days": 252,
+    "revision_relaxation_scales": [
+      1.0,
+      0.95,
+      0.9,
+      0.85
+    ],
+    "solver_method": "highs",
+    "solver_options": {
+      "primal_feasibility_tolerance": 1e-07,
+      "dual_feasibility_tolerance": 1e-07,
+      "ipm_optimality_tolerance": 1e-08
+    },
+    "constraint_tolerance": 1e-07,
+    "baseline_weight_tolerance": 1e-06,
+    "initial_weight_rule": "cash_first_then_own_last_success_current_pool",
+    "exit_asset_cost": "include_forced_liquidations",
+    "degenerate_endpoint_policy": "preserve_algebraic_limit_and_flag",
+    "mv_reference_policy": "recompute_mv_as_separate_benchmark",
+    "heterogeneous_k0": 0.8,
+    "heterogeneous_deltas": [
+      0.1,
+      0.2
+    ],
+    "heterogeneous_partial_assets": 10,
+    "bootstrap_block_lengths": [
+      5,
+      10
+    ],
+    "bootstrap_replicates": 300,
+    "bootstrap_seed": 42,
+    "expected_windows": 40
+  },
+  "config_sha256": "d3aaa1f4651a33c120ae4df50bdcde78aabc7fe72181233ba0f1fe2a25dce172",
+  "scope": "full",
+  "selected_experiments": [
+    "BASELINE_AUDIT",
+    "CVAR02_ROBUSTNESS",
+    "ENDPOINT_ALT",
+    "FIXED_RULE_CONTROL",
+    "K1_NEUTRAL",
+    "KPURE_CONTROL",
+    "K_HETEROG",
+    "RVAR_INTERVAL"
+  ],
+  "python": "3.9.23",
+  "scipy": "1.13.1",
+  "numpy": "2.0.2",
+  "pandas": "2.3.1",
+  "pyarrow": "21.0.0",
+  "cvxpy": "1.7.1",
+  "platform": "Windows-10-10.0.22000-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+  "solver_backend": "SciPy bundled HiGHS; resolved through installed SciPy",
+  "performance_backtest_gate": "pending stage3/4; stage2 only audits numerical solutions",
+  "pipeline_model": "ModelA",
+  "execution_solver_available": true,
+  "model_aliases": {
+    "CVaR_k05": "CVaR_opt",
+    "RVaR_k05": "RVaR_opt",
+    "CVaR_k08": "CVaR_neu",
+    "RVaR_k08": "RVaR_neu",
+    "CVaR_k11": "CVaR_pes",
+    "RVaR_k11": "RVaR_pes"
+  },
+  "trajectory_scope": "previous accepted target weights, not market-drifted execution holdings",
+  "failed_window_execution_policy": "unresolved: Stage3 must reconcile holdings before performance claims",
+  "inputs": [
+    {
+      "path": "D:\\code6\\results1\\full_return_matrix.csv",
+      "sha256": "d8ca2aae019fc963e68fddb98ff1af4477d84eaa5b74a25b15ac0422ce0dfb8b"
+    },
+    {
+      "path": "D:\\code6\\results1\\full_turnover_matrix.csv",
+      "sha256": "c434feb2a6710d10891bfc79dd86607e4c45103023fb7f8a280730a656d09eda"
+    },
+    {
+      "path": "D:\\code6\\results1\\risk_free_rate.csv",
+      "sha256": "3f68f24abbb8662f04e8f7a857473af4b8bf07e719cb7d6a6fb57cc64356bf70"
+    },
+    {
+      "path": "D:\\code6\\results1\\rolling_windows.csv",
+      "sha256": "198649158efaa86d3ec5d95d1418775de6ab09e6b967c6e90fced2d682d61363"
+    },
+    {
+      "path": "D:\\code6\\results1\\windows_universe.csv",
+      "sha256": "abd616b202434fed6f1d822c899506dd1c1c2ff3d26a1fda361d6ad3851b31b5"
+    },
+    {
+      "path": "D:\\code6\\results1\\fuzzy_parameters.csv",
+      "sha256": "9c46ab32a6cd39470a035f39466c82d926d1ffa461e013aadb856b94040af67a"
+    },
+    {
+      "path": "D:\\code6\\results1\\endpoint_calibration.csv",
+      "sha256": "c63a4e7a4206d978df35a9a45f2c35f07d017f08946f121e592ef18f2a175c99"
+    },
+    {
+      "path": "D:\\code6\\results1\\step1_run_metadata.json",
+      "sha256": "b15eb25ec2e87c7779a6d755ea8c0dd94763adab7e97afab46af1b15e9176888"
+    }
+  ],
+  "stage1_run_id": "step1_20261101T011323512566Z",
+  "invalid_accepted_solutions": [],
+  "acceptance_tolerances": {
+    "LP": 1e-07,
+    "MV": 1e-05
+  },
+  "failed_evaluations": 359,
+  "relaxed_evaluations": 18,
+  "all_windows_solved": false,
+  "baseline_gate_passed": true,
+  "baseline_gate_note": "No Model B weight files are loaded; numerical feasibility is checked using each solver acceptance tolerance",
+  "baseline_gate_scope": "Model A LP (policy tolerance) and MV (1e-5) constraint acceptance; historical weights are nonbinding diagnostics",
+  "all_model_reproduction_passed": null,
+  "mv_reproduction_mismatches": null,
+  "mv_reference": "MV computed separately as a benchmark; no old-model weights are used",
+  "substitution_complete_trios": 104,
+  "substitution_reported_trios": 120,
+  "substitution_scope": "in-sample cross-risk and weight comparisons only; stage3/4 required for actual performance",
+  "regular_evaluations": 2560,
+  "status": "complete_stage2_inputs",
+  "finished_utc": "2026-11-01T01:14:21.862857+00:00",
+  "elapsed_seconds": 18.583942000001116,
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_substitution_cross_risks.csv",
+      "sha256": "b780ab62671f37e86675df05641fe8779bd04d57b2e324e440aba608c685bca7"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_substitution_weight_pairs.csv",
+      "sha256": "3875c5d8625ded64a12af9a078c37ce9bad9e0100f9c90c3930098ceca69d1e1"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_windows.csv",
+      "sha256": "1607af9bd00d4bdb56b40a0c8b0d41aad92ee415afd31cdb53af5bf0df4c85b5"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_assets.parquet",
+      "sha256": "4249cb6fb07d3945c254b6d9c94890f571d2f2bc76a54b1254cecccafceda73d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_attempts.csv",
+      "sha256": "4db0fbbc4c4f32cc71e9994609d14bb48ccc8ab6195c3c70c179f1bd067ef06e"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_baseline_reproduction.csv",
+      "sha256": "81884265b697e3808edd7e9d2b24397efb7d74e0de4eefa608734b45996d929d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\step2_solve_summary.csv",
+      "sha256": "6d7ea87851cb85ee4bfdd622323ad6a75d20e0bbfba0a36dbaa79c08a04a0869"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\risk_tail_mapping_check.csv",
+      "sha256": "c8352be0f0c657e892f994ef9c8df9d971c5855f81c75c58c4f2468e2de7e195"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\lp_policy_lock.json",
+      "sha256": "a96859292585bc3485ced4f5f7b7c68204e9bfab74f0fb1818794afdf0424eb6"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\results2\\feasibility_protocol.md",
+      "sha256": "b97eccbae0eff466529abe2d26c6a5eb093512e40b05ce63c19d5b455a4f7762"
+    }
+  ]
+}
