@@ -1,0 +1,114 @@
+{
+  "stage": 5,
+  "status": "accepted_modelA_stage5",
+  "pipeline_model": "ModelA",
+  "scope": "full",
+  "started_utc": "2026-11-05T19:04:34.847354+00:00",
+  "code_sha256": "aafc6557a63dfc28a2256a894aa47beb150576beef9f7727afabbffdc4960e1d",
+  "source_stage3_metadata_sha256": "ad0d99d0286a14ea1b4aaeb6fb706b6e8d2da96382836f69bd75ed51a6362d8e",
+  "source_stage4_metadata_sha256": "88ae9e9b014bf8ef2ef0c331d16d48a8014c044639eb1220612c94f20c005f91",
+  "figure_scope": "single-model manuscript narrative: substitution, shape response, allocation mechanism, and market performance",
+  "finished_utc": "2026-11-05T19:04:34.849348+00:00",
+  "outputs": [
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_paths.png",
+      "sha256": "901db9a9702c2fc416ac73077d76eb307a6b9ae6778620be1ccfa41966884bd8"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_paths.pdf",
+      "sha256": "7d783c6fe81a0f93a8c0f60f1d90e4229ac8199cd0ceef907344e3c0fa52b128"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_replace.png",
+      "sha256": "a16cb10be34a41f1cbfaeecaebe77b97730ec4042189192bb04bb097acb604d9"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_replace.pdf",
+      "sha256": "7edaf03e41b643c971bee34c0bda724146c57deab837cec2b19deb5f90b61963"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_shape.png",
+      "sha256": "2e4682f5790540b632046a46bd117df74ee7569d807f697b7182f0ea8f624670"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_shape.pdf",
+      "sha256": "bdda58d9434b2a3bfb7d496bc1b8a5ec11d5f27187f6d1aa037a811c83c8622f"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_alloc.png",
+      "sha256": "30159099b090fe7d09de99fad431a7d7c8ea4db5500939b42c8644ca80c245d6"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_alloc.pdf",
+      "sha256": "0bd601030c8f59060de7fdd5a0223468cce52e8e04734e5e985a0805b8705845"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_states.png",
+      "sha256": "bc2beadd4ac87cce95f3f2aa21acfc5986134cc5a0d6a9ceadfe892c50626533"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\fig_states.pdf",
+      "sha256": "bf3d59a2ccc96d0263e9a89ac01aa8cc6c527a62e3cadd232cee77545095b19a"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_neutral.png",
+      "sha256": "19f113f49759a6f5f8ce85c6ff8973c0800f541ce110cfeb4705527b80521cfe"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_neutral.pdf",
+      "sha256": "6030f0665071136168c28a6c930384797a55d2e63d5f664a3d1ead47343c30a3"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_sensitivity.png",
+      "sha256": "a1d36dd065d4b6d36f9881156f37482eda6ef7919b34b9ec526cfd356fd56caa"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_sensitivity.pdf",
+      "sha256": "0fa197a0e8d9c63a739dd255558bcb8dbb6b9ff4b295abf2f1789e538a1ca9d8"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_heterogeneity.png",
+      "sha256": "ed3882e9984c0d6282b26556976257089552c5076ecf725ed3d3a2d0a83d4740"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_heterogeneity.pdf",
+      "sha256": "67e9a260b11ca6f3e0a8b0115b7adf36c23bf8d77a5046bf193ca967e228dead"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_core.png",
+      "sha256": "40c02b5787d6bf92c651c20a74236df15f5f425680ba453eb5e4576ab01cab79"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_core.pdf",
+      "sha256": "09492514fb24c0e983207808e1e133de98ebb63f96b5931c23783be81557cda1"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_endpoint.png",
+      "sha256": "db6c64dd18ef36ec9e6a4833c35dcfff3590c280dd8b173c7d4e9d6da5111be3"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_endpoint.pdf",
+      "sha256": "69958c0beaf796d686dfbe34d088d64e84d95074fd0e694758b49b0588b84c4d"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_interval.png",
+      "sha256": "a8b0a916f85971ed24732225a391e443fa2600ffbf659a23efd3bb134c33a203"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_interval.pdf",
+      "sha256": "dd718f6b0dc62e984c6ab95d38218cfe323894919c6317af3e235af2ae9bc785"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_heterogeneity.png",
+      "sha256": "fb394eeab3776f10837e81b15d9da952e6e8493ec31ecc686945cf88f71fab7f"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\app_feasibility_heterogeneity.pdf",
+      "sha256": "974f087ed5a8b144dd33651fb7c67709b8f03409ff25cfd0222e39cfd9d53ef7"
+    },
+    {
+      "path": "D:\\latex\\code\\results_execution\\results5\\figure_index.json",
+      "sha256": "70f1fa87906adf7e8c39ae79be51bda526d59f030b1643341c653d6cf7e503b1"
+    }
+  ]
+}

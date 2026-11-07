@@ -1,0 +1,50 @@
+[
+  {
+    "file_stem": "fig_paths",
+    "section_role": "Main text: cumulative performance and drawdowns"
+  },
+  {
+    "file_stem": "fig_replace",
+    "section_role": "Main text: substitution effect and uncertainty"
+  },
+  {
+    "file_stem": "fig_shape",
+    "section_role": "Main text: shape-parameter response under fixed rules"
+  },
+  {
+    "file_stem": "fig_alloc",
+    "section_role": "Main text: allocation mechanism and concentration"
+  },
+  {
+    "file_stem": "fig_states",
+    "section_role": "Main text: state-conditional diagnostics"
+  },
+  {
+    "file_stem": "app_neutral",
+    "section_role": "Appendix: separate k=1 reference"
+  },
+  {
+    "file_stem": "app_sensitivity",
+    "section_role": "Appendix: endpoint and interval sensitivity"
+  },
+  {
+    "file_stem": "app_heterogeneity",
+    "section_role": "Appendix: heterogeneous shape scenarios"
+  },
+  {
+    "file_stem": "app_feasibility_core",
+    "section_role": "Main, fixed-rule and neutral optimization status"
+  },
+  {
+    "file_stem": "app_feasibility_endpoint",
+    "section_role": "Endpoint-calibration feasibility"
+  },
+  {
+    "file_stem": "app_feasibility_interval",
+    "section_role": "RVaR interval feasibility"
+  },
+  {
+    "file_stem": "app_feasibility_heterogeneity",
+    "section_role": "Heterogeneous-shape feasibility"
+  }
+]
