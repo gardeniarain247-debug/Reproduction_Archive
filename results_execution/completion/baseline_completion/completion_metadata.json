@@ -1,0 +1,34 @@
+{
+  "status": "computed_completion_with_open_execution_and_data_evidence",
+  "pipeline_model": "ModelA",
+  "replicates": 2000,
+  "block_length": 10,
+  "seed": 42,
+  "source_step3_sha256": "ad0d99d0286a14ea1b4aaeb6fb706b6e8d2da96382836f69bd75ed51a6362d8e",
+  "complete_raw_data_certificate": false,
+  "actual_execution_certificate": false,
+  "completion_code_sha256": "ba6ced87df7e3e32648000388b2142fe2333bc061c9f0c5fef2fa37d2a09165d",
+  "statistics_code_sha256": "d2a3cbfd11e9601438d8f1143cb04f9d86621fe5c016f2a98f2821de880509f5",
+  "scope_rule": "both_accepted includes Direct and Relaxed; failures excluded; full_policy retained separately",
+  "multiplicity": "Holm within purpose x scope x statistic, deduplicated; includes annual-return bootstrap",
+  "limitations": [
+    "Subset comparisons are not causal or unconditional whole-history estimates",
+    "Original same-close execution remains an assumption until separately evaluated",
+    "No inference of investor preferences from conditional shape projections"
+  ],
+  "outputs": {
+    "completion_pairs.csv": "588e3b744e0782e7d8af51b0b6746fe0289acc6ff9134483245a3040dcd9291e",
+    "completion_paired_performance.csv": "0ac08b44061d3cb701ceb093d03ec6ac4c278a09107a032ba696f69028d3eb60",
+    "completion_neutral_k1.csv": "133ef3811d5908e27f4c820b3387aa6aeeeafa9a22eb049b54f3083a96f20588",
+    "completion_constraint_windows.csv": "3bee2c03f804e0a7f7637599c76fb5a74ae8b99293595ffc79b35f05fdaa4c7d",
+    "completion_constraint_summary.csv": "be23a67f4d245d96b32c5ca1dce0d11256657905d3e47ff2c883130e7125fc0c",
+    "completion_solver_timing.csv": "19ae720a32a4348484d7d3d9d97e556f801c6348ddd45feace9fa7c50e971044",
+    "completion_model_dimensions.csv": "8ebcf526365ffcb86aa60f250fec900181da263fe3782d0f57a6001f9a79fb8b",
+    "completion_source_integrity.csv": "1680b4fcad85bc2c2321c9e552f122b3e1b73964be39775b2f34574d81b5b8bf",
+    "completion_input_evidence.csv": "400bfb4008a7baa2856e1e4777c9139872e75523fcb151ea920cd61ef66a08fd",
+    "completion_theory_checks.csv": "15ce9ce2edf4b91a16d6ebc65641e03196c4e5487288463e06717909fa89e840",
+    "completion_endpoint_window_failures.csv": "ebf89977e330c5ce5fdd845fd57ba7502246bb37aac0d4cc43059a23df185802",
+    "completion_shape_fit.csv": "699607e61f883b307f891af02b7833a6cc5ccc6e5a170104f3d8b373cd6911dc",
+    "completion_shape_convention_check.csv": "6424fe9a2af2ab5c20e09a8103942dd6ea8af03df34a31efc39f14ee0f2a4319"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "computed_requested_diagnostics_with_disclosed_open_evidence",
+  "with_execution": true,
+  "all_reviewer_comments_certified": false,
+  "actual_fills_certified": false,
+  "corporate_actions_certified": false,
+  "note": "Theory, narrative, public release and real-world execution cannot be certified by output existence."
+}

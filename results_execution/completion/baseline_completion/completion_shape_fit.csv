@@ -1,0 +1,4 @@
+﻿variant,records,eligible,median_k,median_loss,median_free_loss,median_restriction_loss,median_free_left_power,median_free_right_power,interpretation
+mean_balanced,2010,2006,0.9641762359330859,0.09328212376281461,0.0450459465458722,0.047921447782900944,3.994535837121081,3.482467220054102,"Conditional target-curve fit, not behavior or validation of the common shape family"
+median_balanced,2010,2006,1.0070954003623405,0.09386370883801405,0.0453466965717029,0.04833191691163905,3.6503857853530324,3.7748517423437944,"Conditional target-curve fit, not behavior or validation of the common shape family"
+median_equal_shoulders,2010,2006,1.0070954018866818,0.09468510962687049,0.03001390786174085,0.06444255588218539,3.650385750268522,3.774851742345306,"Conditional target-curve fit, not behavior or validation of the common shape family"

@@ -1,0 +1,5 @@
+{
+  "single_family_closure": false,
+  "quantile_integral_additivity_error": 0.0,
+  "interpretation": "Minimum-t-norm nonnegative cut arithmetic; no claim for arbitrary probabilistic dependence"
+}

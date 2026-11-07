@@ -1,0 +1,14 @@
+﻿comment,item,status
+R2-M2 / R4-M2,conditional_k_dispersion,computed_conditional_only
+R2-M3 / R4-M6,endpoint_and_interval_sensitivity,recorded_in_source_check_tables
+R4-M4,k1_both_accepted_sample,computed
+R2-M6 / R3,failure_constraint_deviations,computed
+R2-M4,tail_substitution_and_real_losses,computed_in_source_and_completion
+R2-M7,formal_state_contrasts,supplied
+R2-Minor / R4-Minor3,solver_dimensions_and_timing,computed
+R2-M3 consider,EVT_or_parametric_calibration,not_implemented_optional
+R3 if_feasible,second_market,not_implemented_optional
+R3,public_code_archive,requires_public_release
+R2-Minor,corporate_action_ledger,requires_external_evidence
+R2-Minor,available_raw_cache_reconciliation,computed_see_coverage
+execution_audit,delayed_and_repair_sensitivities,computed_under_disclosed_close_value_assumption

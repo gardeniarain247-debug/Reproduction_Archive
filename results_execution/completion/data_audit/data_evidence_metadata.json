@@ -1,0 +1,18 @@
+{
+  "status": "reconciled_available_caches_with_open_provenance",
+  "declared_adjustflag": "1",
+  "cached_assets_matched": 127,
+  "assets": 127,
+  "missing_cache_assets": 0,
+  "rf_daily_min": 3.496031746031746e-05,
+  "rf_daily_max": 0.000151865079365,
+  "rf_unique": 1358,
+  "cash_rate_is_time_varying": true,
+  "corporate_actions_independently_reconciled": false,
+  "index_total_return_comparability_verified": false,
+  "limitations": [
+    "Cached close values alone cannot prove which adjustment option was originally used",
+    "An original query log/vendor flag and event reconciliation are still needed",
+    "Price-index versus dividend-adjusted stock-return comparability needs index provenance"
+  ]
+}

@@ -1,0 +1,2 @@
+﻿variants,records,max_k_difference,independent_shape_checks,reason
+median_balanced vs median_equal_shoulders,2006,6.084989878640812e-08,False,Core loss is k-independent; equal rescaling of both shoulder losses leaves argmin unchanged
