@@ -1,0 +1,90 @@
+{
+  "stage": 5,
+  "status": "accepted_modelA_stage5",
+  "pipeline_model": "ModelA",
+  "scope": "full",
+  "started_utc": "2026-11-01T07:06:32.903749+00:00",
+  "code_sha256": "1c337cb8509c6910119e1f3850e5c1ab2a8b69fd0dca740436c997c24ac38ea6",
+  "source_stage3_metadata_sha256": "202f9d5fc11e0e8bb8af4b8bf10b867fc3ca8353ccef252154a5c23db92a1133",
+  "source_stage4_metadata_sha256": "76ad315e56c293d0cc3c45f1c1aa0cc1b1b0a28248e68751563910907d96b109",
+  "figure_scope": "single-model manuscript narrative: substitution, shape response, allocation mechanism, and market performance",
+  "finished_utc": "2026-11-01T07:06:32.905749+00:00",
+  "outputs": [
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_paths.png",
+      "sha256": "92a22cecf3514fdac961f4757d340c8ddf20e73125439a79c6eecb98ec41fe3f"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_paths.pdf",
+      "sha256": "d98e82754564ec1cd836a3711af0632ff9a7a8c675978804d4c674e0e22c61f2"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_replace.png",
+      "sha256": "648ee655220174952ff46a1b6093f523e499481923b86d42328c73fa4a7bbad4"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_replace.pdf",
+      "sha256": "8bdc98a86e5e6200371fdce52074f4a33cbda195cdb02ba272ad84bcd0e2a186"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_shape.png",
+      "sha256": "9abb2922b175cbf1ccefdcfc9b25fb931c305d5c1137c5aa55558e711dec569e"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_shape.pdf",
+      "sha256": "aa6d205422d0d3370775ce42b3fe7abf79a15f6d5be20492235c04afc980e5d2"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_alloc.png",
+      "sha256": "8cf15495fcada4011fbda8bb6ec98931bea671e4725810588e8a1f10813d4165"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_alloc.pdf",
+      "sha256": "0b72da22b086b057b365771a5229eacfbb8b108d24eb84d793539d0cc96c493d"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_states.png",
+      "sha256": "0e803f71086cd42c1a410dda06339e74c4c126bb53a917b9c2b7105f1ee8aeb3"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\fig_states.pdf",
+      "sha256": "e8c81f2e10a4a9950115587fa7a78e0b230bba0dabaad13ebf0328953d11c6cd"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_neutral.png",
+      "sha256": "9b15f6aee348dfafe580c91f1cd8e1ed683223c3d9678d287ca3a20690a790bc"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_neutral.pdf",
+      "sha256": "5cb6e908b45d8437f92080273427a9603abd35ff3d910cd62429fc4b8d38edb4"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_sensitivity.png",
+      "sha256": "022b17d9947504925b04524645a9d35117cc4946fe99a035c351f2123a40bb0e"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_sensitivity.pdf",
+      "sha256": "66078fdd5d31e6bb6ce8c7227429a6c2897f35e95d2f11b016236184ad8f978f"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_heterogeneity.png",
+      "sha256": "63025622fded631e72fca8664e8d1537d9bd4c87fd7bfdfcb2ae88f484cbd5a7"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_heterogeneity.pdf",
+      "sha256": "0a73a285bfcb7512f11a14df2aae64433e9274d1ca6f17b3faed1a2779bebc16"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_feasibility.png",
+      "sha256": "080f4aae7512b17d728ebd20e6755971ac98174b9cea5724d1951f2cb6ab37a2"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\app_feasibility.pdf",
+      "sha256": "1c0765613df37c8825749b857ab89705ed25a7c213566627cf4a7a4b8674e29c"
+    },
+    {
+      "path": "D:\\code6\\results_execution\\completion\\next_close_hold\\results5\\figure_index.json",
+      "sha256": "5e2ba095d64fb7b788f8e3baa7ae65838d4790198575ac52077c0495f19c64da"
+    }
+  ]
+}

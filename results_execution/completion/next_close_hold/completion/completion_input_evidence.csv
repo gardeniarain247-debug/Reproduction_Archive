@@ -1,0 +1,8 @@
+﻿item,status,note
+step1_run_metadata.json,provided_not_independently_certified,File existence is not proof of raw corporate actions or actual execution.
+input_data_audit.csv,provided_not_independently_certified,File existence is not proof of raw corporate actions or actual execution.
+implementation_parameters.csv,provided_not_independently_certified,File existence is not proof of raw corporate actions or actual execution.
+risk_free_alignment_audit.csv,provided_not_independently_certified,File existence is not proof of raw corporate actions or actual execution.
+universe_asset_audit.csv,provided_not_independently_certified,File existence is not proof of raw corporate actions or actual execution.
+corporate_action_and_adjustment_ledger,not_certified,"Requires raw prices, adjustment flags and event/reconciliation evidence."
+real_close_order_fills,not_certified,Positive turnover is a proxy; no actual order ledger supplied.
